@@ -39,7 +39,36 @@
 
 .navBg,.navBg a,.nav-item .dropdown-menu  {
   background-color: #457D58!important;
-  color: white!important;
+  color: #CBDDD1!important;
   text-decoration: none !important;
 }
 
+.place {
+  justify-content: center;
+  display: flex;
+}
+
+.toggle{
+  background-color: white;
+  height: 30px;
+  width: 60px;
+  border-radius: 30px;
+  display: flex;
+  
+}
+
+.toggle-left{
+  height: 20px;
+  width: 20px;
+  background-color: #CBDDD1;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.toggle-right{
+  height: 20px;
+  width: 20px;
+  background-color: #CBDDD1;
+  border-radius: 20px;
+  margin: 5px 5px 5px 30px;
+}
