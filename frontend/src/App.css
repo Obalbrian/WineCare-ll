@@ -44,31 +44,26 @@
 }
 
 .place {
-  justify-content: center;
+ 
   display: flex;
 }
 
-.toggle{
-  background-color: white;
-  height: 30px;
-  width: 60px;
-  border-radius: 30px;
+
+.search-box{
   display: flex;
+  align-items: center;
+  background: #CBDDD1;
   
+  border-radius: 50px;
 }
 
-.toggle-left{
-  height: 20px;
-  width: 20px;
-  background-color: #CBDDD1;
-  border-radius: 20px;
-  margin: 5px;
-}
+.search-box input{
+  padding: 6px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  color: #814256;
+  font-size: 18px;
+  max-width: 200px;
 
-.toggle-right{
-  height: 20px;
-  width: 20px;
-  background-color: #CBDDD1;
-  border-radius: 20px;
-  margin: 5px 5px 5px 30px;
 }
