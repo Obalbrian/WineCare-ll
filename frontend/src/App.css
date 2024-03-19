@@ -54,7 +54,7 @@
   align-items: center;
   background: #CBDDD1;
   
-  border-radius: 50px;
+  
 }
 
 .search-box input{
@@ -65,5 +65,12 @@
   color: #814256;
   font-size: 18px;
   max-width: 200px;
+
+}
+
+.search-box input::placeholder{
+  
+  color: #814256;
+ 
 
 }
