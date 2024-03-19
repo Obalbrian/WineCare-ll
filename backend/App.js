@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const db = require("./database/db");
 
 const app = express();
 
@@ -11,6 +12,7 @@ const PORT = 4000;
 
 app.listen(PORT, ()=> {
     console.log('SERVIDOR FUNCIONANDO EN EL PUERTO', PORT);
+    db();
 });
 
 module.exports = app
