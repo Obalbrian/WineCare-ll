@@ -6,8 +6,8 @@ class ImportarLogo extends Component {
   render() {
     return (
         <div>
-        <img src={logo} alt='' width="45" height="50"/>
-        </div>
+        <img src={logo} alt='' width="45" height="50" className="d-inline-block align-top"/>
+        {' '} WINE CARE</div>
     
       
     );

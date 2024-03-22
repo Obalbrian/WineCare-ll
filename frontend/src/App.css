@@ -75,7 +75,7 @@
   outline-color: #e21983 !important; 
 }
 
-.navBg,.navBg a,.nav-item .dropdown-menu  {
+.navbar,.navBg,.navBg a,.nav-item .dropdown-menu  {
   background-color: #457D58!important;
   color: #CBDDD1!important;
   text-decoration: none !important;

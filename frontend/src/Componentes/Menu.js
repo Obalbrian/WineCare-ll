@@ -12,6 +12,7 @@ import { Button } from 'primereact/button';
 
 import {useState} from 'react';
 import NavbarBrand from 'react-bootstrap/esm/NavbarBrand';
+import NavLink from 'react-bootstrap/esm/NavLink';
 
 
 export const Menu= () =>{
@@ -20,39 +21,25 @@ export const Menu= () =>{
 
   return (
     <>
-      <Navbar collapseOnSelect expand="lg" className='navBg' bg="navBg">
-      <Container className="navBg"  >
-       
-      
-      
-        <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
-
-      <Navbar.Collapse id="responsive-navbar-nav" className="navBg" > 
-      
-      <ImportarLogo/>{' '} WINE CARE
-      <Nav className="ms-auto"  >
-      
-      
-      
-        
-      <div className='search-box'>
+      <Navbar expand="lg" className="navbar">
+      <Container className='navBg'>
+        <Navbar.Brand href="#home" ><ImportarLogo/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+          <div className='search-box'>
           <input type='text' placeholder='Search'/>
       
         
-        </div >
-        
-        
-        </Nav >
-
-
-        <img src={campana} alt="" width="45" height="50" className='toggle-icon'/>
-        <img src={usuario} alt="" width="40" height="65"className='toggle-icon'/>
-        <img src={configuracion} alt="" width="42" height="50"className='toggle-icon'/>
+          </div >
+          <img src={campana} alt="" width="40" height="50" className='toggle-icon'/>
+          <img src={usuario} alt="" width="32" height="50"className='toggle-icon'/>
+          <img src={configuracion} alt="" width="40" height="50"className='toggle-icon'/>
+           
+          </Nav>
         </Navbar.Collapse>
-        </Container>
-      </Navbar>
-      
-      
+      </Container>
+    </Navbar>
     </>
   );
 }
