@@ -23,7 +23,7 @@ export const Menu= () =>{
     <>
       <Navbar expand="lg" className="navbar">
       
-        <Navbar.Brand className='logo' ><ImportarLogo/></Navbar.Brand>
+        <Navbar.Brand className='logo' ><ImportarLogo/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

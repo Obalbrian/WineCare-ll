@@ -52,9 +52,9 @@
 }
 
 .sidebar{
-  width: 274px;
+  width: 250px;
   height: calc(100vh - 52px);
-  border-right: 1px solid #457D58;
+  border-right: 1px solid ;
   background-color: #457D58;
   text-align: left;
   ul{
@@ -70,14 +70,16 @@
 }
 
 .btn-primary{
-  background-color: #457D58!important;
-  color: #CBDDD1!important;
-  border-radius: 20px solid #814256!important;
-  width: 225px;
+  background-color: #457D58 !important;
+  color: #CBDDD1 !important;
+  border: none !important;
+  border-radius: 5px;
+  width: 200px;
 } 
 
-.btn-primary:focus {
-  outline-color: #e21983 !important; 
+ .btn-primary:focus {
+ 
+  border:  3px solid #814256 !important;
 }
 
 .navbar,.navBg,.navBg a,.nav-item .dropdown-menu  {
