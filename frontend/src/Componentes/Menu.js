@@ -22,8 +22,8 @@ export const Menu= () =>{
   return (
     <>
       <Navbar expand="lg" className="navbar">
-      <Container className='navBg'>
-        <Navbar.Brand href="#home" ><ImportarLogo/></Navbar.Brand>
+      
+        <Navbar.Brand className='logo' ><ImportarLogo/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -38,7 +38,7 @@ export const Menu= () =>{
            
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      
     </Navbar>
     </>
   );
