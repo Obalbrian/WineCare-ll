@@ -5,6 +5,7 @@
   font-family: Poppins;
   box-sizing: border-box;
   outline: none;
+
 }
 
 .container {
@@ -13,10 +14,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ececec;
+  background-color: #CBDDD1;
 }
 
 *::selection {
   background: #457D58;
   color: white;
+}
+.navbar {
+  background-color: #457D58!important;
+  color: #CBDDD1!important;
+  text-decoration: none !important;
+  height: 50px; /* Altura de la barra */
+    width: 100%; /* Ancho completo */
+    display: flex; /* Mostrar elementos en línea */
 }

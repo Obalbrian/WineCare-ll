@@ -1,3 +1,10 @@
+/*Hoja de estilos para las paginas de usuarios loggeados*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
 .App {
   text-align: center;
 }
@@ -52,6 +59,7 @@
 }
 
 .sidebar{
+  font-family: 'Poppins', sans-serif;
   width: 250px;
   height: calc(100vh - 52px);
   border-right: 1px solid ;
