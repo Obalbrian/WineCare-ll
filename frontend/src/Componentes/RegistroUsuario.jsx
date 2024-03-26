@@ -20,7 +20,7 @@ const RegistroUsuario = () => {
 
   const { nombre, contraseña, correo } = inputs;
 
-  const HandleChange = (e) => {
+  const onChange = (e) => {
     setInputs({ ...inputs, [e.target.name]: e.target.value });
   };
 
@@ -63,17 +63,18 @@ const RegistroUsuario = () => {
           <h3>Bienvenido a la pagina
           </h3>
           <h2>De Registro de usuario</h2>
-          <form>
+          <form onSubmit={(e) => onSubmit(e)}>
             <div className={styles.inputContainer}>
-            <div className={styles.left}>
-              <label htmlFor='nombre'>Nombre</label>
-              <input
-                type='text'
-                id='nombre'
-                name='nombre'
-                placeholder='Nombre...'
-                autoComplete='off'
-              />
+              <div className={styles.left}>
+                <label htmlFor='nombre'>Nombre</label>
+                <input
+                  onChange={(e) => onChange(e)}
+                  type='text'
+                  id='nombre'
+                  name='nombre'
+                  placeholder='Nombre...'
+                  autoComplete='off'
+                />
               </div>
               <svg
                 viewBox="0 0 30 32"
@@ -90,16 +91,17 @@ const RegistroUsuario = () => {
 
 
             <div className={styles.inputContainer}>
-            <div className={styles.left}>
-              <label htmlFor='correo'>Correo</label>
-              <input
-                type='email'
-                id='correo'
-                name='correo'
-                placeholder='Correo...'
-                autoComplete='off'
-              />
-               </div>
+              <div className={styles.left}>
+                <label htmlFor='correo'>Correo</label>
+                <input
+                  onChange={(e) => onChange(e)}
+                  type='email'
+                  id='correo'
+                  name='correo'
+                  placeholder='Correo...'
+                  autoComplete='off'
+                />
+              </div>
               <svg
                 viewBox="0 0 30 24"
                 fill="none"
@@ -114,16 +116,17 @@ const RegistroUsuario = () => {
 
 
             <div className={styles.inputContainer}>
-            <div className={styles.left}>
-              <label htmlFor='contraseña'>Contraseña</label>
-              <input
-                type='password'
-                id='contraseña'
-                name='contraseña'
-                placeholder='Contraseña...'
-                autoComplete='off'
-              />
-            </div>
+              <div className={styles.left}>
+                <label htmlFor='contraseña'>Contraseña</label>
+                <input
+                  onChange={(e) => onChange(e)}
+                  type='password'
+                  id='contraseña'
+                  name='contraseña'
+                  placeholder='Contraseña...'
+                  autoComplete='off'
+                />
+              </div>
               <svg
                 viewBox="0 0 30 30"
                 fill="none"

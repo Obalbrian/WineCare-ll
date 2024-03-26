@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/usuario/:id", controllers.getUsuarioPorID)
-app.post("/registro", controllers.registro)
+app.post("/registrousuario", controllers.registro)
 app.post("/login", controllers.login)
 
 const PORT = 4000;
