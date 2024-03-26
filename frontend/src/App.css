@@ -1,8 +1,21 @@
 /*Hoja de estilos para las paginas de usuarios loggeados*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-* {
-  font-family: 'Poppins';
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+
 }
 
 .App {
@@ -12,6 +25,9 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,16 +66,37 @@
 }
 
 .logo{
-  margin-right: 10px;
+  margin-right: 30px;
   color: #CBDDD1!important;
+
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Ajusta la distancia entre elementos */
+}
+
+.logo-container img {
+  width: 45px;
+  height: 50px;
+  margin-right: 5px; /* Ajusta la distancia entre el logo y el texto */
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-container h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  margin: 0; /* Elimina los márgenes */
+}
 .navbar{
   padding: 16px 32px ;
 }
 
 .sidebar{
-  font-family: 'Poppins', sans-serif;
+
   width: 250px;
   height: calc(100vh - 52px);
   border-right: 1px solid ;

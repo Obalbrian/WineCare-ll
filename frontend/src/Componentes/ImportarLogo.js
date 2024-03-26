@@ -5,11 +5,14 @@ import '../App.css';
 class ImportarLogo extends Component {
   render() {
     return (
-        <div>
-        <img src={logo} alt='' width="45" height="50" className="d-inline-block "/> WINE CARE
-</div>
-    
-      
+      <div className="logo-container">
+        <img
+          src={logo}
+          alt=""
+          className="d-inline-block"
+        />
+        <h2>WINE CARE</h2>
+      </div>
     );
   }
 }
