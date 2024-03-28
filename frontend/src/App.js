@@ -6,6 +6,7 @@ import { Sidebar } from './Componentes/Sidebar';
 import RegistroUsuario from './Componentes/RegistroUsuario';
 import Login from './Componentes/Login';
 import Bienvenida from './Componentes/Bienvenida';
+import { Usuarios } from './VistasAdmin/Usuarios';
 
 
 
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/login" element={<Login/>} />
           <Route path="/bienvenida" element={<Bienvenida/>} />
           <Route path="/menu" element={<Menu/>} />
+          <Route path="/usuarios" element={<Usuarios/>} />
       
   
         </Routes>

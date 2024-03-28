@@ -21,20 +21,20 @@ export const Menu= () =>{
 
   return (
     <>
-      <Navbar expand="lg" className="navbar">
+      <Navbar collapseOnSelect expand="lg" className="navbar">
       
         <Navbar.Brand className="logo" ><ImportarLogo/> </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="resonsive-navbar-nav">
           <Nav className="ms-auto">
           <div className='search-box'>
-          <input type='text' placeholder='Search'/>
-      
+          <input type='text' placeholder='Search'/> </div>
+          
         
-          </div >
-          <img src={campana} alt="" width="40" height="50" className='toggle-icon'/>
-          <img src={usuario} alt="" width="32" height="50"className='toggle-icon'/>
-          <img src={configuracion} alt="" width="40" height="50"className='toggle-icon'/>
+          
+          <NavLink href="Notificacion" ><img src={campana} alt="" width="40" height="50" className='toggle-icon'/></NavLink>
+          <NavLink href="Bienvenida" ><img src={usuario} alt="" width="32" height="50"className='toggle-icon'/></NavLink>
+          <NavLink href="Configuracion" ><img src={configuracion} alt="" width="40" height="50"className='toggle-icon'/></NavLink>
            
           </Nav>
         </Navbar.Collapse>
