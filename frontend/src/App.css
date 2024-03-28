@@ -71,6 +71,10 @@
 
 }
 
+.flex{
+  display: flex;
+}
+
 .logo-container {
   display: flex;
   align-items: center;
@@ -122,6 +126,8 @@
   border-radius: 5px;
   width: 200px;
 } 
+
+
 
  .btn-primary:focus {
  
@@ -193,3 +199,32 @@
 
 }
 
+.contenedor{
+  background-color: #CBDDD1;
+  min-width: 1269px;
+  
+  
+}
+
+.inline{
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.outline-primary{
+  
+  background-color: #814256 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 5px;
+  width: 200px;
+      
+}
+
+.sub-contenedor{
+  
+  width: 1150px;
+  height: 550px;
+  background-color: #cfe1b89c;
+}

@@ -25,7 +25,7 @@ export const Menu= () =>{
       
         <Navbar.Brand className="logo" ><ImportarLogo/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="resonsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
           <div className='search-box'>
           <input type='text' placeholder='Search'/> </div>
